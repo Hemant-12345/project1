@@ -1,4 +1,9 @@
+*{
+  margin:0;
+  padding:0;
+}
 h1{
   color:red;
-  backgrond-color:Black;
+  backgrond-color:yellow;
+  font-size:30px;
 }
