@@ -7,14 +7,14 @@ body{
 }
 h1{
   color:red;
-  backgrond-color:yellow;
+  background-color:yellow;
   font-size:30px;
 }
 .one{
   padding:10px;
   height:100px;
   width:100px;
-  backgroung-color:red;
+  background-color:red;
   border:5px solid green;
 }
 .Two{
