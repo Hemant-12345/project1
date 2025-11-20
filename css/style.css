@@ -1,4 +1,4 @@
-*{
+/* *{
   margin:0;
   padding:0;
 }
@@ -25,4 +25,25 @@ h1{
   width:100px;
   background-color:blue;
   border:2px solid green;
+} */
+body{
+  font-family:Arial,sans-serif;
+  padding:20px;
+  background-color:#f4f4f4;
+}
+.container-parallel{
+  display:flex;
+  gap:10px
+  margin-bottom:40px;
+}
+.box{
+  height:150px;
+  width:150px;
+  border:2px solid #333;
+}
+.green-box{
+  background-color:green;
+}
+.red-box{
+  background-color:red;
 }
