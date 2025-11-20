@@ -26,6 +26,7 @@ h1{
   background-color:blue;
   border:2px solid green;
 } */
+/* parallel box css */
 body{
   font-family:Arial,sans-serif;
   padding:20px;
@@ -35,6 +36,7 @@ body{
   display:flex;
   gap:10px
   margin-bottom:40px;
+  align:center;
 }
 .box{
   height:150px;
