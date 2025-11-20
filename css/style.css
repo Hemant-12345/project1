@@ -36,7 +36,6 @@ body{
   display:flex;
   gap:10px
   margin-bottom:40px;
-  align:center;
 }
 .box{
   height:150px;
@@ -48,4 +47,37 @@ body{
 }
 .red-box{
   background-color:red;
+}
+/* 3 nested div css */
+.outer-div{
+  width:400px;
+  padding:20px;
+  bakground-color:yellow;
+  border:2px solid black;
+}
+.mid-div{
+  padding:20px;
+  background-color:skyblue;
+  border:2px solid black;
+}
+.inner-div{
+  padding:20px;
+  background-color:gray;
+  border:2px solid black;
+}
+.inner-div h1 {
+  font-size:30px;
+  margin:5px;
+}
+.heading-one{
+  color:red;
+}
+.heading-two{
+  color:blue;
+}
+.heading-three{
+  color:green;
+}
+.heading-four{
+  color:blueviolet;
 }
