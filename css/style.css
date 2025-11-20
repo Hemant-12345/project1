@@ -2,8 +2,25 @@
   margin:0;
   padding:0;
 }
+body{
+  background-color:aqua;
+}
 h1{
   color:red;
   backgrond-color:yellow;
   font-size:30px;
+}
+.one{
+  padding:10px;
+  height:100px;
+  width:100px;
+  backgroung-color:red;
+  border:2px solid green;
+}
+.Two{
+  padding:10px;
+  height:100px;
+  width:100px;
+  background-color:blue;
+  border:2px solid green;
 }
