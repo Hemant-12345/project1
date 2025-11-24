@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
 <head>
   <title>My first project</title>
   <link rel="stylesheet" href="css/style.css"></link>
@@ -7,7 +7,7 @@
     <h1>Hello,My name is Hemant sharma.I am use github now.</h1>
     <!-- <div>one</div>
     <div>two</div> --> 
-    <div class="container-parallel"> 
+   <!-- <div class="container-parallel"> 
       <div class="box green-box"></div>
       <div class="box red-box"></div>
     </div>
@@ -27,6 +27,43 @@
     <div class="childDiv">
       two
     </div>
-     -->
+     
   </body>
-</html>
+</html> -->
+.container-parallel {
+    /* Use Flexbox to put the divs in parallel */
+    display: flex;
+    gap: 10px; /* Space between the two divs */
+    margin-bottom: 10px;
+    width: 100%;
+   
+}
+
+.box {
+    /* Same height and width */
+    width: 50%;
+    height: 450px;
+    border: 1px solid #333;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.red-box {
+    background-color: red;
+    background-image:url(../wwww.png) ;
+}
+
+@media (max-width: 576px){
+  .container-parallel{
+    flex-direction: column;
+  }
+  .green-box {
+    width:100%;
+}
+
+.red-box {
+    width:100%;
+}
+}
