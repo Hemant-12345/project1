@@ -102,7 +102,7 @@ h1{
 
 .red-box {
     background-color: red;
-    background-image:url(c.jpg) ;
+    background-image:url(a.jpg) ;
 }
 
 @media (max-width: 576px){
