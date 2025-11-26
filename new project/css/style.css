@@ -8,6 +8,7 @@
   height:10%;
   width:100%;
   background-color: blue;
+  display:flex;
 }
 .logo{
   width: 25%;
