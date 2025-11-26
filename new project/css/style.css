@@ -1,5 +1,5 @@
-*{
-  margin:0;
+body{
+  margin:0px;
 }
 
 .navbar{
@@ -29,7 +29,6 @@
 
 @media (max-width:576px){
   .header {
-    height: 7%;
-    background-color: red;
+    height: 6%;
   }
 }
