@@ -29,10 +29,11 @@ body{
   text-color:white;
   display: flex;
 }
-.navbar ul {
+.navbar ul{
   display: flex;
   text-decoration: none;
   list-style: none;
+  gap:40px;
   justify-content:space-around;
 }
 
