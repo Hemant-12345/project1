@@ -35,7 +35,7 @@ body{
   list-style: none;
   gap:40px;
   width:100%;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 
 .navbar ul li a{
