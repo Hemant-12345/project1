@@ -33,6 +33,7 @@ body{
   display: flex;
   text-decoration: none;
   list-style: none;
+  justify-content:space-around;
 }
 
 .navbar ul li a{
