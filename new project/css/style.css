@@ -43,7 +43,7 @@ body{
   color:black;
 }
 .mobilebar{
-  width:0%;
+  width:0;
 }
 @media (max-width:576px){
   .header {
