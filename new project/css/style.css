@@ -6,7 +6,7 @@ body{
 .navbar{
   height:10%;
   width:100%;
-  background-color: blue;
+  background-color: aqua;
   display:flex;
 }
 .logo{
