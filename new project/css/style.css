@@ -3,7 +3,7 @@ body{
   padding:0px;
 }
 
-.navbar{
+.header{
   height:10%;
   width:100%;
   background-color: aqua;
@@ -28,6 +28,9 @@ body{
   background-color: aqua;
   text-color:white;
   display: flex;
+}
+.navbar{
+  width:100%;
 }
 .navbar ul{
   display: flex;
