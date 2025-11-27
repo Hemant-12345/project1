@@ -25,7 +25,20 @@ body{
 .menu{
   width:75%;
   background-color: blue;
+  text-color:white;
+  display: flex;
 }
+.navbar ul {
+  display: flex;
+}
+
+.navbar a{
+  text-decoration:none;
+}
+
+.mobilebar {
+}
+
 
 @media (max-width:576px){
   .header {
