@@ -10,7 +10,7 @@ body{
   background-color: aqua;
   display:flex;
   overflow: hidden;
-  /* position: fixed; */
+  
 }
 .logo{
   width: 25%;
@@ -31,7 +31,6 @@ body{
   background-color: aqua;
   text-color:white;
   display: flex;
-  position: fixed;
 }
 .navbar{
   width:100%;
@@ -43,7 +42,7 @@ body{
   gap:40px;
   /* width:100%; */
   justify-content:space-around;
-  
+  position: fixed;
 }
 
 .navbar ul li a{
