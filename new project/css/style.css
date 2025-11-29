@@ -9,7 +9,7 @@ body{
   width:100%;
   background-color: aqua;
   display:flex;
-  overflow: hidden;
+  overflow: none;
 }
 .logo{
   width: 25%;
@@ -30,6 +30,7 @@ body{
   background-color: aqua;
   text-color:white;
   display: flex;
+  overflow:none;
 }
 .navbar{
   width:100%;
