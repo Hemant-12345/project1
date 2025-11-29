@@ -10,7 +10,7 @@ body{
   background-color: aqua;
   display:flex;
   overflow: hidden;
-  position: fixed;
+  /* position: fixed; */
 }
 .logo{
   width: 25%;
@@ -31,7 +31,7 @@ body{
   background-color: aqua;
   text-color:white;
   display: flex;
-  overflow:none;
+  position: fixed;
 }
 .navbar{
   width:100%;
