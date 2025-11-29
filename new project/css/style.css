@@ -41,13 +41,13 @@ body{
   gap:40px;
   /* width:100%; */
   justify-content:space-around;
-  position: relative;
+  
 }
 
 .navbar ul li a{
   text-decoration:none;
   color:black;
-  font-size: 1.5vw;
+  font-size: 3vw;
   position: absolute;
 }
 .mobilebar{
