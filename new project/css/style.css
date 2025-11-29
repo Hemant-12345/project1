@@ -34,7 +34,6 @@ body{
 }
 .navbar{
   width:100%;
-  position: absolute;
 }
 .navbar ul{
   display: flex;
@@ -43,7 +42,6 @@ body{
   gap:40px;
   /* width:100%; */
   justify-content:space-around;
-  position: relative;
   
 }
 
@@ -51,7 +49,7 @@ body{
   text-decoration:none;
   color:black;
   font-size: 3vw;
-  /* position: absolute; */
+  position: absolute;
 }
 .mobilebar{
   width:0;
