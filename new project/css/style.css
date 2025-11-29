@@ -30,11 +30,11 @@ body{
   width:75%;
   background-color: aqua;
   text-color:white;
-  display: flex;
+  /* display: flex;*/
+  flex:3;
 }
 .navbar{
   width:100%;
-  position: relative'
 }
 .navbar ul{
   display: flex;
@@ -48,7 +48,7 @@ body{
 .navbar ul li a{
   text-decoration:none;
   color:black;
-  font-size: 3vw;
+  font-size: 1.5vw;
   position: absolute;
 }
 .mobilebar{
