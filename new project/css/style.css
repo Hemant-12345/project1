@@ -48,7 +48,7 @@ body{
   text-decoration:none;
   color:black;
   font-size: 3vw;
-  position: fixed;
+  position: relative;
 }
 .mobilebar{
   width:0;
