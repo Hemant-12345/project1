@@ -48,5 +48,15 @@
 .menu ul li a{
         text-decoration:none;
         color:black;
-        font-size:1.5vw;
+        font-size:1vw;
+}
+.mobilebar {
+  width: 0;
+}
+
+@media (max-width:576px) {
+  .header {
+    height: 7%;
+    background-color: red;
+  }
 }
