@@ -33,7 +33,7 @@ body{
 }
 .navbar{
   width:100%;
-  position: relative;
+  position: absolute;
 }
 .navbar ul{
   display: flex;
@@ -42,7 +42,7 @@ body{
   gap:40px;
   /* width:100%; */
   justify-content:space-around;
-  position: absolute;
+  position: relative;
   
 }
 
