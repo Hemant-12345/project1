@@ -15,3 +15,10 @@
   height:auto;
   width:auto;
 }
+.menu{
+  width:75%;
+  background-color:aqua;
+}
+.menubar{
+  display:flex;
+}
