@@ -27,8 +27,9 @@
   background-color:aqua;
   display:flex;
 }
-.menubar{
+.menu .menubar{
   display:flex;
+  height:100%;
 }
 .menubar ul {
   text-decoration:none;
