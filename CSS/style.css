@@ -24,3 +24,6 @@
 .menubar{
   display:flex;
 }
+.menubar ul li a{
+  text-decoration:none;
+}
