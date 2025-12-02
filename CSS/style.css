@@ -10,7 +10,7 @@
 }
 .logo{
   width:25%;
-  background-color:white;
+  background:linear-gradient(to left orange,green);
 }
 .logo a{
   width:50%;
