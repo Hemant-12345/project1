@@ -15,16 +15,16 @@
         .then(data => {
           document.getElementById("header").innerHTML = data;
 
-       let currentPage = window.location.pathname.split("/").pop();
-       let links = document.querySelectorAll(".menu .menubar ul li a");
+       // let currentPage = window.location.pathname.split("/").pop();
+       // let links = document.querySelectorAll(".menu .menubar ul li a");
       
-       links.forEach(link => {
-           let linkPage = link.getAttribute("href");
-           console.log("Attribute Value:", linkPage);
-           if(!linkPage == currentPage){
-               link.closest("li").classList.add("underline_current");
-           }
-       });
+       // links.forEach(link => {
+       //     let linkPage = link.getAttribute("href");
+       //     console.log("Attribute Value:", linkPage);
+       //     if(!linkPage == currentPage){
+       //         link.closest("li").classList.add("underline_current");
+       //     }
+       // });
     });
     </script>
 </body>
