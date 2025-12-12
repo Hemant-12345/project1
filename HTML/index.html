@@ -13,6 +13,9 @@
           document.getElementById("header").innerHTML = data;
 
        let currentPage = window.location.pathname.split("/").pop();
+            if ( !currentpage || currentpage == "#"){
+                currentpage = "index.html";
+            }
        let links = document.querySelectorAll(".menu .menubar ul li a");
       
        links.forEach(link => {
