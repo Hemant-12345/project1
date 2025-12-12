@@ -23,7 +23,7 @@
            let linkPage = link.getAttribute("href");
            console.log("Attribute Value:", linkPage);
            if(!linkpage) return;
-           if(!linkPage == currentPage){
+           if(linkPage == currentPage){
                link.closest("li").classList.add("underline_current");
            }
        });
