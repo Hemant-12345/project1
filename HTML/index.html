@@ -1,27 +1,31 @@
-<html>
-  <head>
-    <title>Project training</title>
-    <meta name="viewport" content="width=device-width, initial-sale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
-  </head>
-  <body>
-      <div class="header">
-        <div class="logo">
-          <a href="#">
-            <img src="../images/skuc logo.png">
-          </a>
-        </div>
-        <div class="menu">
-          <div class="menubar">
-            <ul>
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">HINDI</a></li>
-              <li><a href="#">ENGLISH</a></li>
-              <li><a href="#">CS</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVBAR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="header"></div>
+   <script>
+        fetch("navbar.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+
+       let currentPage = window.location.pathname.split("/").pop();
+       let links = document.querySelectorAll(".menu .menubar ul li a");
+      
+       links.forEach(link => {
+           let linkPage = link.getAttribute("href");
+           console.log("Attribute Value:", linkPage);
+           if(!linkPage == currentPage){
+               link.closest("li").classList.add("underline_current");
+           }
+       });
+    });
+    </script>
+</body>
 </html>
