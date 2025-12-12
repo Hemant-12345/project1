@@ -48,7 +48,8 @@
 }
 
 .menu .menubar ul .underline_current a{
-    text-decoration:underline red;
+    text-decoration:underline;
+    text-decoration-color:red;
 }
 .menu .menubar ul li{
     list-style-type: none;
