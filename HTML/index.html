@@ -12,7 +12,7 @@
         .then(data => {
           document.getElementById("header").innerHTML = data;
 
-       let currentPage = window.location.pathname.split("/").pop();
+       let currentpage = window.location.pathname.split("/").pop();
             if ( !currentpage || currentpage == "#"){
                 currentpage = "index.html";
             }
@@ -23,7 +23,7 @@
            let linkPage = link.getAttribute("href");
            console.log("Attribute Value:", linkPage);
            if(!linkpage) return;
-           if(linkPage == currentPage){
+           if(linkpage == currentpage){
                link.closest("li").classList.add("underline_current");
            }
        });
