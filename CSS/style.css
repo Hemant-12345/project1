@@ -1,8 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: monospace;
+    /* box-sizing: border-box; */
+    /* font-family: monospace; */
 }
 .navbar{
     height:10vh;
