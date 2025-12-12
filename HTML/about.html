@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project training</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <div id="header"></div>
+   <script>
+        fetch("navbar.html")
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById("header").innerHTML = data;
+
+       let currentPage = window.location.pathname.split("/").pop();
+            if ( !currentPage || currentPage == "#"){
+                currentPage = "index.html";
+            }
+       let links = document.querySelectorAll(".menu .menubar ul li a");
+      
+       links.forEach(link => {
+           console.log("current page:", currentPage);
+           let linkPage = link.getAttribute("href");
+           console.log("Attribute Value:", linkPage);
+           if(!linkPage) return;
+           if(linkPage == currentPage){
+               link.closest("li").classList.add("underline_current");
+           }
+       });
+    });
+    </script>
+</body>
+</html>
