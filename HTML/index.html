@@ -12,9 +12,9 @@
         .then(data => {
           document.getElementById("header").innerHTML = data;
 
-       let currentpage = window.location.pathname.split("/").pop();
-            if ( !currentpage || currentpage == "#"){
-                currentpage = "index.html";
+       let currentPage = window.location.pathname.split("/").pop();
+            if ( !currentPage || currentPage == "#"){
+                currentPage = "index.html";
             }
        let links = document.querySelectorAll(".menu .menubar ul li a");
       
@@ -22,8 +22,8 @@
            console.log("current page:", currentpage);
            let linkPage = link.getAttribute("href");
            console.log("Attribute Value:", linkPage);
-           if(!linkpage) return;
-           if(linkpage == currentpage){
+           if(!linkPage) return;
+           if(linkPage == currentPage){
                link.closest("li").classList.add("underline_current");
            }
        });
