@@ -10,7 +10,7 @@
     display: flex;
 }
 .logo{
-    width:20vw;
+    width:25vw;
     height:100%;
     background:linear-gradient(to right bottom,aqua,white);
     
@@ -27,7 +27,7 @@
     padding: 5px;
 }
 .menu{
-    width:80vw;
+    width:75vw;
     display: flex;
 }
 .menu .menuicon{
