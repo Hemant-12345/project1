@@ -29,6 +29,12 @@
                    dv.setAttribute("tabindex", "0");
                    dv.innerHTML = '<span></span>';
                    mobileBar.appendChild(dv)
+
+
+                   dv.addEventListener("click", function(e){
+                      e.stopPropagation();
+                      menu.classList.toggle("mobile-open");
+                   });
                 }
 
            }
