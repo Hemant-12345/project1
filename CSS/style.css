@@ -156,16 +156,16 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background:green;
+    background: white;
   }
 
   .header .menu .mobilebar .hamburger span {
     display: block;
     width: 20px;
     height: 2px;
-    background: white;
+    background: black;
     border-radius: 2px;
-    box-shadow: 0 7px 0 white, 0 -7px 0 white;
+    box-shadow: 0 7px 0 black, 0 -7px 0 black;
   }
 
 
