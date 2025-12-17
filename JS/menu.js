@@ -17,7 +17,7 @@
            if(linkPage == currentPage){
                link.closest("li").classList.add("underline_current");
            }
-           if (window.innerwidth <= 576) {
+           if (window.innerWidth <= 576) {
                const menu = document.querySelector(".menu");
                const menuBar = document.querySelector(".menu .menubar");
                const mobileBar = document.querySelector(".menu .mobilebar");
