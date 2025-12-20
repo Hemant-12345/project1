@@ -107,8 +107,8 @@
   text-overflow: ellipsis;
 }
 .menu .menubar ul li .submenu li : hover{
-  background-color: white;
-  color:black;
+  background-color: hotpink;
+  color:red;
 }
 
 .menu .menubar ul li:hover .submenu {
