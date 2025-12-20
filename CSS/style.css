@@ -106,7 +106,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.menu .menubar ul li .submenu li :hover{
+.menu .menubar ul li .submenu li:hover{
   background-color: black;
   color: white;
 }
