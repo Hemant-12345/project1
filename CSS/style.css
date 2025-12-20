@@ -79,7 +79,7 @@
   transform: translateX(-50%);
   background: magenta;
   border: 1px solid black;
-  width: 200px;
+  width: 100px;
   height: auto;
   flex-direction:column;
   padding:5px 0;
