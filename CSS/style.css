@@ -106,9 +106,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.menu .menubar ul li .submenu li : hover{
-  background-color: hotpink;
-  color:red;
+.menu .menubar ul li .submenu li :hover{
+  background-color: black;
+  color: white;
 }
 
 .menu .menubar ul li:hover .submenu {
