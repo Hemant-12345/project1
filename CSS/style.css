@@ -77,7 +77,7 @@
   top:100%;
   left: 50%;
   transform: translateX(-50%);
-  background: magenta;
+  background: aqua;
   border: 1px solid black;
   width: 50px;
   height: auto;
@@ -117,7 +117,7 @@
 
 .menu .menubar ul .underline_current > a {
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: black;
 }
 
 @media (max-width: 576px) {
