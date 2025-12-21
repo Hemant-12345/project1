@@ -108,7 +108,7 @@
 }
 .menu .menubar ul li .submenu li:hover{
   background-color: black;
-  color: white;
+  color: black;
 }
 
 .menu .menubar ul li:hover .submenu {
