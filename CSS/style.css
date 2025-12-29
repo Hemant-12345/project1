@@ -186,6 +186,19 @@
     width:100%;
     display:none;
   }
+  .header .menu .menubar ul li {
+    padding: 5% 0;
+  }
+  .header .menu .menubar ul li a {
+    font-size: 1rem;
+  }
+  .header .menu .menubar ul li .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: 0 !important;
+    display: none;
+  }
 }
 
 
