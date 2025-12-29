@@ -181,6 +181,11 @@
     z-index: 9;
     flex-direction: column;
   }
+  .header .menu .menubar ul{
+    height:auto;
+    width:100%;
+    display:none;
+  }
 }
 
 
