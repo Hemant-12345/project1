@@ -199,6 +199,10 @@
     transform: 0 !important;
     display: none;
   }
+  .menu .menubar ul li .submenu li a {
+    font-size: 1.5rem;
+    color: gray;
+  }
   .header .menu .menubar ul li:open-submenu .submenu {
     display: block;
   }
