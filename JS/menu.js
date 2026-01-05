@@ -42,7 +42,7 @@ fetch("navbar.html")
 			menuList.forEach(li => {
 				// second step --> voh menu items filter karna jisme submenu ho
 				const submenuExists = li.querySelector(".submenu");
-				if (submenuExists.length>0) {
+				if (submenuExists) {
 					console.log(submenuExists);
 					// third step --> identify karna jis menu item pr click hua ho
 					const toggle = document.createElement("button");
