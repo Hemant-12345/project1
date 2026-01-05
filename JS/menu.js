@@ -52,13 +52,13 @@ fetch("navbar.html")
 
 					// dummy li add in the end of the list
 					const firstLink = li.querySelector("a");
-					firstLink.after(toggle);
+					// firstLink.after(toggle);
 
 					// fifth step --> submenu display karna jo menu item click hua ho
 					li.addEventListener("click", function (ev) {
 						ev.stopPropagation();
 						const isOpen = li.classList.toggle("open-submenu");
-						li.setAttribute("aria-expanded", isOpen? "true" : "false");
+						toggle.setAttribute("aria-expanded", isOpen? "true" : "false");
 					});
 					// fouth step --> close already open / close all submenu
 					
