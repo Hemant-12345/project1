@@ -45,7 +45,7 @@ fetch("navbar.html")
 				if (submenuExists) {
 					console.log(submenuExists);
 					if (!li.querySelector(".submenu-toggle")){
-						
+						console.log("submenu-toggle");
 					// third step --> identify karna jis menu item pr click hua ho
 					const toggle = document.createElement("button");
 					toggle.className = "submenu-toggle";
