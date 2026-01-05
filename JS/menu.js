@@ -44,6 +44,8 @@ fetch("navbar.html")
 				const submenuExists = li.querySelector(".submenu");
 				if (submenuExists) {
 					console.log(submenuExists);
+					if (!li.querySelector(".submenu-toggle")){
+						
 					// third step --> identify karna jis menu item pr click hua ho
 					const toggle = document.createElement("button");
 					toggle.className = "submenu-toggle";
@@ -61,7 +63,7 @@ fetch("navbar.html")
 						toggle.setAttribute("aria-expanded", isOpen? "true" : "false");
 					});
 					// fouth step --> close already open / close all submenu
-					
+					}
 				}
 			});
            }
