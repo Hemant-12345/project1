@@ -54,7 +54,7 @@ fetch("navbar.html")
 
 					// dummy li add in the end of the list
 					const firstLink = li.querySelector("a");
-					// firstLink.after(toggle);
+					firstLink.after(toggle);
 
 					// fifth step --> submenu display karna jo menu item click hua ho
 					li.addEventListener("click", function (ev) {
