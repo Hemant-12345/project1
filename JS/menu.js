@@ -57,16 +57,7 @@ fetch("navbar.html")
 					firstLink.after(toggle);
 
 					// fouth step --> close already open / close all submenu
-						li.addEventListener("click", function (ev) {
-							ev.stopPropagation();
-							menuList.forEach(s_li =>{
-								const s_submenuExists = s_li.querySelector(".submenu");
-								if(s_submenuExists && s_li !== li){
-									console.log(s_submenuExists);
-									console.log(s_li);
-									s_li.classList.remove("open-submenu");
-								}
-							});
+						
 					// fifth step --> submenu display karna jo menu item click hua ho
 					li.addEventListener("click", function (ev) {
 						ev.stopPropagation();
