@@ -19,7 +19,7 @@ fetch("navbar.html")
            }
            if (window.innerWidth <= 576) {
                const menu = document.querySelector(".menu");
-               const menuBar = document.querySelector(".menu .menubar");
+               const menuBar = document.querySelector(".menu .menubar ul");
                const mobileBar = document.querySelector(".menu .mobilebar");
 
                 if (mobileBar && !mobileBar.querySelector(".hamburger")){
