@@ -58,7 +58,7 @@ fetch("navbar.html")
 					li.addEventListener("click", function (ev) {
 						ev.stopPropagation();
 						const isOpen = li.classList.toggle("open-submenu");
-						toggle.setAttribute("aria-expanded", isOpen? "true" : "false");
+						li.setAttribute("aria-expanded", isOpen? "true" : "false");
 					});
 					// fouth step --> close already open / close all submenu
 					
