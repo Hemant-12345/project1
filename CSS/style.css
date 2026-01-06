@@ -122,13 +122,14 @@
 form{
   height:50%;
   width:50%;
-  text-align:center;
+  justify-content:center;
   background-color:black;
   color:white;
   /* line-height:3; */
   }
 form label{
   line-height:2;
+  align-items:center;
 }
 @media (max-width: 576px) {
   .header {
