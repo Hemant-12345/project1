@@ -119,14 +119,14 @@
     text-decoration: underline;
     text-decoration-color: black;
 }
-/* form{
+form{
   height:50%;
   width:50%;
   align-items:center;
   background-color:black;
   color:white;
   /* line-height:3; */
-  } */
+  }
 @media (max-width: 576px) {
   .header {
     height: 5%;
@@ -220,13 +220,13 @@
     padding: 0 6px;
     cursor: pointer;
   }
-  form{
+  /* form{
   height:80%;
   width:80%;
   align-items:center;
   background-color:black;
   color:white;
-  }
+  } */
 }
 
 
