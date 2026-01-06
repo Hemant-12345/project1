@@ -123,8 +123,8 @@ form{
   height:50%;
   width:50%;
   justify-content:center;
-  background-color:black;
-  color:white;
+  background-color: #34eba4;
+  color: #000;
   /* line-height:3; */
   }
 form label{
