@@ -125,7 +125,7 @@ form{
   align-items:center;
   background-color:black;
   color:white;
-  /* line-height:3; */
+  line-height:3;
   }
 @media (max-width: 576px) {
   .header {
