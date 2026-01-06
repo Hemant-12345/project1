@@ -125,6 +125,7 @@ form{
   align-items:center;
   background-color:black;
   color:white;
+  line-height:3;
   }
 @media (max-width: 576px) {
   .header {
@@ -220,8 +221,8 @@ form{
     cursor: pointer;
   }
   form{
-  height:50%;
-  width:50%;
+  height:20%;
+  width:80%;
   align-items:center;
   background-color:black;
   color:white;
