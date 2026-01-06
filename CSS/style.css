@@ -119,14 +119,6 @@
     text-decoration: underline;
     text-decoration-color: black;
 }
-form{
-  height:50%;
-  width:50%;
-  align-items:center;
-  background-color:black;
-  color:white;
-}
-
 @media (max-width: 576px) {
   .header {
     height: 5%;
@@ -220,6 +212,13 @@ form{
     padding: 0 6px;
     cursor: pointer;
   }
+  form{
+  height:50%;
+  width:50%;
+  align-items:center;
+  background-color:black;
+  color:white;
+}
 }
 
 
