@@ -126,6 +126,7 @@ form{
   background-color: #34eba4;
   color: #000;
   /* line-height:3; */
+  padding-left:50%
   }
 form label{
   line-height:2;
