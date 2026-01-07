@@ -134,6 +134,8 @@ form{
 }
 form label{
   line-height:2;
+  font-size: 3vw;
+  
 }
 form input {
     width: 50%;
