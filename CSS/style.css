@@ -135,6 +135,20 @@ form{
 form label{
   line-height:2;
 }
+form input {
+    width: 50%;
+    height: 5vh;
+}
+form h1 {
+  height:5vh;
+  width: 80%;
+  font-size:1vw;
+}
+form button {
+  height:5vh;
+  width: 80%;
+  font-size:1vw;
+}
 @media (max-width: 576px) {
   .header {
     height: 5%;
