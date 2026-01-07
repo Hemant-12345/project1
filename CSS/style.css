@@ -135,6 +135,9 @@ form{
   color: #000;
   /* line-height:3; */
   }
+form h1{
+  width: 25%;
+}
 form label{
   line-height:2;
   /* align-items:center; */
