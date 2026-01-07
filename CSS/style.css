@@ -235,6 +235,9 @@ form label{
   background-color:black;
   color:white;
   } */
+  form h1 {
+    font-size:16px;
+  }
 }
 
 
