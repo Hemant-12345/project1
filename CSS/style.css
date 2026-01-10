@@ -144,12 +144,13 @@ form input {
 form h1 {
   height:5vh;
   width: 80%;
-  font-size: 5vw;
+  font-size: 3vw;
 }
 form button {
   height:5vh;
   width: 80%;
   font-size:1vw;
+  line-height:1;
 }
 @media (max-width: 576px) {
   .header {
