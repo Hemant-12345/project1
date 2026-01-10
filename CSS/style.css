@@ -150,7 +150,7 @@ form button {
   height:5vh;
   width: 80%;
   font-size:1vw;
-  line-height:1;
+  line-height:2;
 }
 @media (max-width: 576px) {
   .header {
