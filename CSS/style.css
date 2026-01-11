@@ -142,10 +142,10 @@ form input {
     height: 5vh;
     border: none;
 }
-form h1 {
+form h2 {
   height:5vh;
   width: 80%;
-  font-size: 3vw;
+  font-size: 2vw;
   text-align: center;
 }
 form button {
