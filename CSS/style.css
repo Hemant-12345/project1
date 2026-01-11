@@ -145,9 +145,8 @@ form input {
 form h1 {
   height:5vh;
   width: 80%;
-  font-size: 1.5vw;
   text-align: center;
-  position: static !important;
+  font-size: 2vw;
 }
 form button {
   height:5vh;
