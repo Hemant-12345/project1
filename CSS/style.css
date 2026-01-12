@@ -153,13 +153,16 @@ form h2 {
 }
 form button {
   height:5vh;
-  width: 20%;
+  width: 30%;
   font-size:2vw;
   border: none;
   border-radius: 15px;
   background-color: blue;
   color: white;
   margin-top: 10px;
+}
+input: focus{
+  outline: none;
 }
 @media (max-width: 576px) {
   .header {
