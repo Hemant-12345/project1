@@ -140,10 +140,10 @@ form label{
   
 }
 form input {
-    width: 50%;
-    height: 5vh;
-    border: none;
-    font-size: 2vw;
+  width: 50%;
+  height: 5vh;
+  border: none;
+  font-size: 2vw;
 }
 form h2 {
   height:5vh;
