@@ -140,19 +140,19 @@ form label{
   
 }
 form input {
-    width: 50%;
+    width: 50vw;
     height: 5vh;
     border: none;
 }
 form h2 {
   height:5vh;
-  width: 80%;
+  width: 80vw;
   font-size: 2vw;
   text-align: center;
 }
 form button {
   height:5vh;
-  width: 30%;
+  width: 30vw;
   font-size:2vw;
   border: none;
   border-radius: 15px;
