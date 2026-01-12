@@ -158,7 +158,7 @@ form button {
   border-radius: 15px;
   background-color: blue;
   color: white;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 @media (max-width: 576px) {
   .header {
