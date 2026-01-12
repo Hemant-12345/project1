@@ -140,7 +140,7 @@ form label{
   
 }
 form input {
-    width: 50vw;
+    width: 50%;
     height: 5vh;
     border: none;
 }
@@ -152,7 +152,7 @@ form h2 {
 }
 form button {
   height:5vh;
-  width: 30vw;
+  width: 20%;
   font-size:2vw;
   border: none;
   border-radius: 15px;
