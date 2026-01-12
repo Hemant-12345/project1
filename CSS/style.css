@@ -161,7 +161,7 @@ form button {
   color: white;
   margin-top: 10px;
 }
-input: focus{
+form input:focus{
   outline: none;
 }
 @media (max-width: 576px) {
